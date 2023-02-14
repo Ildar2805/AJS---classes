@@ -1,6 +1,6 @@
 import Bowerman from '../js/bowerman';
 
-test('should check an object', () => {
+test('проверка создания объекта', () => {
   const result = new Bowerman('Nick', 'Bowman');
   const expected = {
     name: 'Nick',
